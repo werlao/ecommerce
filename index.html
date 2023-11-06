@@ -43,7 +43,9 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR FORCE</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">COMPRAR</button>
+                <a href="#product">
+                    <button class="buyButton">COMPRAR</button>
+                </a>
             </div>
 
             <div class="sliderItem">
@@ -51,7 +53,9 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">AIR JORDAN</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">COMPRAR</button>
+                <a href="#product">
+                    <button class="buyButton">COMPRAR</button>
+                </a>
             </div>
 
             <div class="sliderItem">
@@ -59,7 +63,9 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">COMPRAR</button>
+                <a href="#product">
+                    <button class="buyButton">COMPRAR</button>
+                </a>
             </div>
 
             <div class="sliderItem">
@@ -67,7 +73,9 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">CRATER</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">COMPRAR</button>
+                <a href="#product">
+                    <button class="buyButton">COMPRAR</button>
+                </a>
             </div>
 
             <div class="sliderItem">
@@ -75,7 +83,9 @@
                 <div class="sliderBg"></div>
                 <h1 class="sliderTitle">HIPPIE</br> NEW</br> SEASON</h1>
                 <h2 class="sliderPrice">$119</h2>
-                <button class="buyButton">COMPRAR</button>
+                <a href="#product">
+                    <button class="buyButton">COMPRAR</button>
+                </a>
             </div>
         </div>
     </div>
@@ -106,7 +116,7 @@
         </div>
     </div>
 
-    <div class="product">
+    <div class="product" id="product">
         <img src="./images/air.png" alt="" class="productImg">
         <div class="productDetails">
             <h1 class="productTitle">AIR FORCE</h1>
@@ -122,8 +132,30 @@
                 <div class="size">43</div>
                 <div class="size">44</div>
             </div>
-                <button class="productButton">COMPRAR</button>
-        </div> 
+            <button class="productButton">COMPRAR</button>
+        </div>
+        <div class="payment">
+            <h1 class="payTitle">Informações Pessoais</h1>
+            <label>Nome e Sobrenome</label>
+            <input type="text" placeholder="Fulano de Souza" class="payInput">
+            <label>Numero de Celular</label>
+            <input type="text" placeholder="+55 12 123456789" class="payInput">
+            <label>Endereço</label>
+            <input type="text" placeholder="Bairro/Av, Rua..., n°0" class="payInput">
+            <h1 class="payTitle">Informações de Pagamento</h1>
+            <div class="cardIcons">
+                <img src="./images/visa.png" width="40" class="cardIcon">
+                <img src="./images/master.png" width="40" class="cardIcon">
+            </div>
+            <input type="password" class="payInput" placeholder="Número do cartão">
+            <div class="cardInfo">
+                <input type="text" placeholder="mês de vencimento" class="payInput sm">
+                <input type="text" placeholder="ano de vencimento" class="payInput sm">
+                <input type="text" placeholder="cvv" class="payInput sm">
+            </div>
+            <button class="payButton">Finalizar</button>
+            <span class="close">X</span>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
